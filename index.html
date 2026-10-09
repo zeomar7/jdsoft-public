@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD Soft — Software for the Masses</title>
+<meta name="description" content="JD Soft is an independent software studio based in Chambly, Québec, Canada. Software for the masses.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #d7e7f5;
+    background: #04090f;
+    line-height: 1.6;
+  }
+  .hero {
+    min-height: 78vh;
+    background: url('background.jpg') center center / cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+  .hero::after {
+    content: "";
+    position: absolute; left: 0; right: 0; bottom: 0; height: 180px;
+    background: linear-gradient(to bottom, rgba(4,9,15,0), #04090f);
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 64px; text-align: center; }
+  .logocard {
+    background: #ffffff; border-radius: 18px; display: inline-block;
+    padding: 18px 26px; margin-bottom: 30px;
+    box-shadow: 0 0 42px rgba(46, 230, 166, 0.25);
+  }
+  .logocard img { width: min(340px, 78vw); height: auto; display: block; }
+  p { max-width: 640px; margin: 0 auto 20px; }
+  .intro { font-size: 1.08rem; }
+  .card {
+    background: rgba(10, 32, 48, 0.82);
+    border: 1px solid rgba(46, 230, 166, 0.35);
+    border-radius: 14px; padding: 26px 28px;
+    margin: 26px auto; max-width: 640px; text-align: left;
+  }
+  .card h2 { font-size: 1.05rem; margin-bottom: 10px; color: #7ef0c1; }
+  .card ul { margin-left: 20px; }
+  footer { margin-top: 44px; font-size: 0.92rem; color: #6f8aa3; }
+  a { color: #5ec8f2; }
+</style>
+</head>
+<body>
+  <header class="hero"></header>
 
+  <div class="wrap">
+    <div class="logocard"><img src="logo.png" alt="JD Soft — software for the masses"></div>
+
+    <p class="intro">JD Soft is an independent software studio based in Chambly, Québec, Canada.
+       We design and build practical, easy-to-use software and app integrations
+       that solve everyday problems for everyday people.</p>
+
+    <div class="card">
+      <h2>What we do</h2>
+      <ul>
+        <li>Custom software and web application development</li>
+        <li>Messaging and social platform integrations (Meta / WhatsApp)</li>
+        <li>Automation tools and AI-assisted workflows</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p style="margin:0">JD Soft<br>
+      Chambly, Québec, Canada<br>
+      Email: <a href="mailto:zeomar@gmail.com">zeomar@gmail.com</a></p>
+    </div>
+
+    <footer>© 2026 JD Soft. All rights reserved.</footer>
+  </div>
+</body>
+</html>
